@@ -2,11 +2,11 @@
 <!-- Section Heading-->
         <section class="section-heading">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
+                <div class="row wrap-breadcrumb">
+                    <div class="col-xs-6 wrap-breadcrumb-child">
                         <p>BLOG DETAILS</p>
                     </div>
-                    <div class="col-xs-6 text-right">
+                    <div class="col-xs-6 text-right wrap-breadcrumb-child">
                         <ul class="list-unstyled list-inline">
                             <li><a href="">Home</a></li>
                             <li>/Blog Details</li>
