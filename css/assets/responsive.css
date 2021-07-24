@@ -1,0 +1,149 @@
+﻿/* Responsive Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 767px) {
+	.navbar {
+	    background-color: rgba(255, 255, 255, 0.9);
+	}
+
+	.navbar-toggle {
+	    padding: 10px;
+	    margin-top: 5px;
+	    border: 2px solid transparent;
+	    border-radius: 0;
+	    transition: all 0.2s ease 0s;
+	}
+
+	.is-sticky .navbar-toggle {
+	    margin-top: 11px;
+	}
+
+	.navbar-default .navbar-toggle {
+	    border-color: #555;
+	}
+
+	.navbar-toggle .icon-bar {
+	    width: 24px;
+	    height: 2px;
+	    border-radius: 0;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #555;
+	}
+
+	.navbar-default .navbar-toggle:focus {
+	    background-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle:hover {
+	    background-color: #555;
+	}
+ 
+	.navbar-default .navbar-toggle:hover .icon-bar{
+	    background-color: #f44336;
+	}
+
+	.navbar-default .navbar-collapse, 
+	.navbar-default .navbar-form {
+	    border-color: transparent;
+	}
+
+	.navbar-nav {
+	    margin: 0;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+	    padding-left: 0;
+	}
+
+	.nav li .contact-menu {
+	    left: 15px;
+	    right: initial;
+	}
+
+	.home-blog-content img {
+	    width: 100%;
+	}
+
+	.service-one-bottom {
+	    border-right: none;
+	}
+
+	.relat-project img, .blog-content img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.particles-intro p, 
+	.slider-intro p, 
+	.image-intro p, 
+	.typed-intro p, 
+	.gradient-intro p {
+	    font-size: 22px;
+	}
+
+	.particles-intro h2, 
+	.slider-intro h2, 
+	.image-intro h2, 
+	#typed, 
+	.typed-cursor, 
+	.gradient-intro h2 {
+	    font-size: 30px;
+	}
+
+	.particles-intro a, 
+	.slider-intro a, 
+	.image-intro a, 
+	.typed-intro a, 
+	.gradient-intro a {
+	    font-size: 13px;
+	    padding: 11px 22px 7px;
+	}
+
+	.particles-home {
+	    height: 500px;
+	}
+
+	.slider-image-one, 
+	.slider-image-two, 
+	.slider-image-three {
+	    min-height: 500px;
+	}
+
+	.image-home, 
+	.typed-home, 
+	.gradient-home {
+	    min-height: 500px;
+	    padding: 190px 0 0;
+	}
+
+	.particles-intro {
+	    margin-top: 70px;
+	}
+
+	.portfolio-top h2, 
+	.testimonial-top h2,
+	.about-content h2,
+	.skill-top h2,
+	.team-top h2,
+	.brand-top h2,
+	.service-one-top h2,
+	.service-two-top h2,
+	.service-three-top h2,
+	.contact-one-top h2,
+	.price-top h2,
+	.port-dtls-top h2,
+	.blog-top h2 {
+	    font-size: 26px;
+	}
+
+	.slider-intro {
+	    padding-top: 240px;
+	    padding-left: 15px;
+	}
+
+	.typed-intro {
+	    padding-right: 0;
+	}
+}
