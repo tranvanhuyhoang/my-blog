@@ -1,12 +1,4 @@
 /*===========================================
-
-Template Name: NEXUM - Bootstrap Creative Portfolio
-Author: Md Tahmidur Rahman
-Author URL: http://snazzytheme.com/
-Version: 1.0
-    
----------------------------------------------
-
 CSS INDEX
 =========
 01. Base Style
@@ -32,6 +24,15 @@ CSS INDEX
 /* ====================
 01. Base style
 ==================== */
+
+.wrap-breadcrumb{
+    display: flex;
+}
+
+.wrap-breadcrumb .wrap-breadcrumb-child{
+    flex: 1;
+    align-self: center;
+}
 
 
 /* css default deep */
@@ -1496,7 +1497,7 @@ a, button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 170px 0 75px;
+    padding: 90px 0 0 0;
     position: relative;
 }
 
@@ -1924,7 +1925,7 @@ a, button {
 
 .about-contact {
     background-color: #f3f3f3;
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 .home-contact {
@@ -1933,7 +1934,7 @@ a, button {
 
 .about-contact .row {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .about-phone i {
